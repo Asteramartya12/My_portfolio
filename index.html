@@ -7,34 +7,40 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="mediaqueries.css">
-<body>
-    <script src="script.js"></script>    
-    <nav id="navbar">
+<body>    
+    <nav id="desktop-nav">
         <div class="logo">CodeXster</div>
         <div>
-            <ul class="nav_link">
-                <li><a href="#about">About</a></li>
-                <li><a href="#exp">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
-    </nav>
-    <nav id="ham-nav">
-        <div class="ham-logo">CodeXster</div>
+      </nav>
+      <nav id="ham-nav">
+        <div class="logo">CodeXster</div>
         <div class="ham-menu">
-            <div class="ham-icon" onclick="toggleMenu()">
+          <div class="ham-icon" onclick="toggleMenu()">
             <span></span>
             <span></span>
             <span></span>
-        </div>
-        <div class="ham-link">
+          </div>
+          <div class="ham-links">
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#exp" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
             <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
         </div>
+      </nav>
+
+      <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile_pic.png" alt="profile_picture">
         </div>
-    </nav>
+      </section>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -364,6 +364,10 @@ section {
   text-align: center;
 }
 
+.details-container p{
+  font-size: 0.8rem;
+}
+
 .section-container {
   gap: 4rem;
   height: 80%;

@@ -107,12 +107,16 @@ nav a:hover{
 }
 
 .logo {
-  font-size: 2rem;
-  color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
 }
-
+.logo .profile-icon{
+  height: 50px; /* Adjust the logo size */
+  width: auto;
+}
 .logo:hover {
-  cursor: default;
+  cursor: cursor;
 }
 
 /* HAMBURGER MENU */
